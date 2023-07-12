@@ -1,0 +1,78 @@
+/* Reset default styles for some elements */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s ease;
+  }
+
+.post .post_title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.post .post_body {
+    font-size: 14px;
+}
+
+.post .username {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.comments-container {
+    margin-top: 20px;
+}
+
+.comments-container li {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+/* Advanced CSS */
+
+/* Add hover effect to posts */
+.post:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post .username {
+    margin-top: 10px;
+    background-color: powderblue;
+    padding: 8px 8px;
+    border-radius: 3px;
+    color: #888;
+  }
+  
+
+
